@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: black;
+    color: #fff;
+}
+.game{
+    margin: auto;
+    padding-top: 20px;
+    width: 320px;
+    font-size: 30px;
+}
+
+
+.main{
+    width: 320px;
+    height: 620px;
+    margin: 40px auto 0;
+    border: 10px solid silver;
+    font-size: 0;
+    position: absolute;
+    
+    
+}
+
+
+.mmain{
+    width: 320px;
+    height: 310px;
+    margin: 40px auto 0;
+    border: 10px solid silver;
+    background-color:black;
+    position: absolute;
+    margin-top: 195px ; 
+      
+}
+
+
+.retry{
+    width: 320px;
+    height: 310px;
+    margin: 40px auto 0;
+    border: 10px solid silver;
+    background-color:black;
+    position: absolute;
+    margin-top: 195px ; 
+    display: none;
+      
+}
+.fa-play{
+    height: 5000;
+    margin: 130px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+.fa-undo-alt{
+    height: 5000;
+    margin: 130px;
+    font-size: 50px;
+    cursor: pointer;
+    
+
+}
+
+.cell{
+    width: 30px;
+    height: 30px;
+    border: 1px solid silver;
+    display: inline-block;
+}
+
+
+
+.fixedCell{
+    background-color: green;
+}
+
+.level{
+    color:white;
+   
+}
+
+.score{
+    color: white;
+}
+    
